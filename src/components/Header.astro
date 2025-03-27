@@ -1,9 +1,13 @@
 ---
 import Navigation from "./Navigation.astro";
 import Hamburger from "./Hamburger.astro";
+import ThemeIcon from "./ThemeIcon.astro";
 ---
 
 <header>
+    <div style="position: fixed; top: 10px; right:10px;">
+        <ThemeIcon />            
+    </div>
     <nav>
         <Hamburger />
         <Navigation />

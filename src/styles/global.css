@@ -31,7 +31,7 @@ h1 {
         width: 40px;
         height: 5px;
         margin-bottom: 10px;
-        background-color: #ff9776;
+        background-color: #20aa55;
 }
 
 .nav-links {
@@ -41,6 +41,7 @@ h1 {
   background-color: #ff9776;
   display: none;
   margin: 0;
+  color: #000;
 }
 
 .nav-links a {
@@ -55,7 +56,7 @@ h1 {
 
 .nav-links a:hover,
 .nav-links a:focus {
-  background-color: #ff9776;
+  background-color: #20aa55;
 }
 
 .expanded {
@@ -79,4 +80,13 @@ h1 {
   .hamburger {
         display: none;
   }
+}
+
+html.dark {
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+.dark .nav-links a {
+  color: #fff;
 }
