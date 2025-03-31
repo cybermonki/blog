@@ -183,6 +183,25 @@ a {
   color: #acfd25;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1em;
+  font-family: sans-serif;
+  text-align: left;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #73a522;
+  color: white;
+}
+
 @media screen and (min-width: 636px) {
   body {
     max-width: 180ch;
