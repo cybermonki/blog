@@ -186,11 +186,7 @@ a {
     max-width: 180ch;
   }
   
-  table {
-    font-size: 12px;
-  }
-
-  p {
+  .markdown {
     font-size: 12px;
   }
 
@@ -213,8 +209,12 @@ a {
     height: 100px;
   }
   
-  table{
+  .markdown {
     font-size: 8px;
+  }
+  
+  h1 {
+    font-size: 18px;
   }
   
   footer {
