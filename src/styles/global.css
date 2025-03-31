@@ -52,6 +52,7 @@ body {
 
 footer{
   margin-top: auto;
+  font-size: 12px;
 }
 
 * {
@@ -152,6 +153,7 @@ h1 {
 
 .nav-links {
   margin-left: 0px;
+  margin-bottom: 10px;
   display: block;
   position: static;
   width: auto;
@@ -187,7 +189,7 @@ a {
   }
   
   .markdown {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .hamburger {
@@ -201,7 +203,7 @@ a {
   }
 
   .blurb{
-    font-size: 8px;
+    font-size: 13px;
   }
   
   .image-cropper{
@@ -210,14 +212,10 @@ a {
   }
   
   .markdown {
-    font-size: 8px;
+    font-size: 16px;
   }
   
   h1 {
-    font-size: 18px;
-  }
-  
-  footer {
-    font-size: 8px;
+    font-size: 28px;
   }
 }
