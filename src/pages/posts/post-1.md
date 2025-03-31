@@ -23,7 +23,7 @@ The following materials includes information, questions and materials contribute
 Additions to the revision material also include questions I was asked during my mock interviews as well as general questions I included as part of revising various topics.
 
 <span class="HL-text"> 
-**NOTE** This merely meant as supplementary material, make sure to DYOR and make sure the information included below is still current and/or relevant.
+**NOTE** This merely meant as supplementary material, make sure to DYOR and make sure the information included below is still current and/or relevant<br>.
 **NOTE** All notes in green throughout this document have been included to provide guidance and/or help you tailor the revision materials to your experience, please pay attention to those.
 </span>
 
@@ -149,8 +149,9 @@ My Acronym: **ICH-ECN** – **I**ntegrity, **C**ompetent, **H&S**, **E**nvironme
 <span class="HL-text">**NOTE** The section below was specific to my project and you should be able to explain the mechanism in which CDM was applied on your project, if the project is large enough it will have a CDM Management Plan, refer to that.</span>
 
 The CDM process is facilitated through the adoption of **Design Development Reviews (DDRs)**, **Interdisciplinary Design Reviews (IDRs)**, and  **L3 certificates**:
-- **Design Development Reviews (DDRs):**  
-Regular High-level technical walkthrough of one or more specific design areas, allowing the designer to provide progressive assurance to and revive feedback from the principal contactor; presented from all relevant Technical Discipline Leads.CDM advisors to be engaged in these reviews to advise on high and medium risks and ensure all relevant information is transferred to drawings.  
-- **Interdisciplinary Design Reviews (IDRs)**:Interdisciplinary Design Reviews ensure that a "buildable" design, fit for operation and maintenance, is developed and residual risks are communicated with a record of associated assumptions. The IDR process provides a formal focussed assessment of all geographic and systemwide design works. The IDR should be seen as the end of the design process.  
-- **L3 Certificates**:
+- **Design Development Reviews (DDRs):**<br>  
+Regular High-level technical walkthrough of one or more specific design areas, allowing the designer to provide progressive assurance to and revive feedback from the principal contactor; presented from all relevant Technical Discipline Leads.CDM advisors to be engaged in these reviews to advise on high and medium risks and ensure all relevant information is transferred to drawings.
+- **Interdisciplinary Design Reviews (IDRs)**:<br>
+Interdisciplinary Design Reviews ensure that a "buildable" design, fit for operation and maintenance, is developed and residual risks are communicated with a record of associated assumptions. The IDR process provides a formal focussed assessment of all geographic and systemwide design works. The IDR should be seen as the end of the design process.
+- **L3 Certificates**:<br>
 Evidence that the design is accepted and that the design can now progress to construction.
