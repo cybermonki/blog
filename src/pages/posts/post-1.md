@@ -1,26 +1,160 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'My First Blog Post'
-pubDate: 2025-03-19
-description: 'This is the first post of my new Astro blog.'
+title: 'CPR Revision Notes'
+pubDate: 2025-03-15
+description: 'Summary of my revision notes for the ICE CPR.'
 author: 'cybermonki'
 image:
     url: 'https://docs.astro.build/assets/rose.webp'
     alt: 'The Astro logo on a dark background with a pink glow.'
 tags: ["astro", "blogging", "learning in public"]
 ---
-# My First Blog Post
 
-Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
+# Chartership Professional Review - Revision Notes
 
-## What I've accomplished
+### Acknowledgements:
 
-1. **Installing Astro**: First, I created a new Astro project and set up my online accounts.
+The following materials includes information, questions and materials contributed by the following:
 
-2. **Making Pages**: I then learned how to make pages by creating new `.astro` files and placing them in the `src/pages/` folder.
+- **CEng Julia Collins**
+- **CEng Mengxiao Li**
+- **CEng Bryn Noble**
 
-3. **Making Blog Posts**: This is my first blog post! I now have Astro pages and Markdown posts!
+Additions to the revision material also include questions I was asked during my mock interviews as well as general questions I included as part of revising various topics.
 
-## What's next
+<span class="HL-text"> **NOTE** All notes in green throughout this document have been included to provide guidance and/or help you tailor the revision materials to your experience, please pay attention to those.</span>
 
-I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
+---
+
+### ICE - Code of Conduct:
+
+1. All members shall discharge their professional duties with **integrity** and shall behave with integrity in relation to all conduct bearing upon the standing, reputation and dignity of the Institution and of the profession of civil engineering.
+
+
+2. All members shall only undertake work that they are **competent** to do.
+
+3. All members shall have full regard for the public interest, particularly in relation to matters of **health and safety**, and in relation to the well-being of future generations.
+
+4. All members shall show due regard for the **environment** and for the sustainable management of natural resources.
+
+5. All members shall develop their professional knowledge, skills and competence on a continuing basis and shall give all reasonable assistance to further the education, training and **continuing professional development** of others.
+
+6. All members shall:
+
+    a. Promptly notify the Institution if convicted of a serious criminal offence;
+    b. Promptly notify the Institution if they have had membership of another professional body terminated as the result of a disciplinary procedure;
+    c. Promptly notify the Institution upon becoming bankrupt or disqualified as a Company Director;
+    d. Promptly notify the Institution where the member, in good faith, believes there has been a significant breach of the Rules of Professional Conduct by another member;
+    e. Promptly notify the employer or relevant authority where the member, in good faith, has a concern about a danger, risk, malpractice or wrongdoing which affects others (but this shall be an obligation only where the law of the relevant jurisdiction provides protection for such good-faith reporting under ‘whistleblowing’ or similar legislation), and;
+    f. Support a colleague or any other person to whom the member has a duty of care who in good faith raises any issues covered by Rules 6d or 6e.
+
+My Acronym: **ICH-ECN** – **I**ntegrity, **C**ompetent, **H&S**, **E**nvironment, **C**ontinuous Professional Development, **N**otification.
+> \> inspired by the famous speech by JFK "Ich bin ein Berliner" - also the name of one of my favorite sour beers :)
+
+<span class="HL-text">**NOTE** You should be able to list the points above, explain what any of them mean to you and potentially give an example where you utilized one of them.</span>
+
+---
+
+### Codes and Standards:
+
+<span class="HL-text">**NOTE** Specific codes and standards that were relevant to my work, adjust to suit your experience.</span>
+
+**Design Codes**
+
+| **Code**       | **Title**                                                         | **Description and Relevance**                                                                                                                                 |
+| -------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **BS EN 1990** | **Eurocode: Basis of Structural Design**                          | Provides the principles and requirements for the safety, serviceability, and durability of structures. It serves as the foundation for all Eurocodes.         |
+| **BS EN 1991** | **Eurocode 1: Actions on Structures**                             | Specifies the actions (loads) that need to be considered when designing structures, such as dead loads, live loads, wind, snow, and seismic actions.          |
+| **BS EN 1992** | **Eurocode 2: Design of Concrete Structures**                     | Covers the design of concrete structures, including buildings, bridges, and tunnels, with rules for reinforced and prestressed concrete.                      |
+| **BS EN 1993** | **Eurocode 3: Design of Steel Structures**                        | Provides guidelines for the design of steel structures, including rules for buildings, bridges, and other steel constructions.                                |
+| **BS EN 1994** | **Eurocode 4: Design of Composite Steel and Concrete Structures** | Combines rules for designing composite structures made of steel and concrete, which are commonly used in buildings and bridges.                               |
+| **BS EN 1995** | **Eurocode 5: Design of Timber Structures**                       | Covers the design of timber structures, with guidance on joints, structural elements, and overall stability.                                                  |
+| **BS EN 1996** | **Eurocode 6: Design of Masonry Structures**                      | Provides rules for the design of masonry structures, including both reinforced and unreinforced masonry used in buildings and other structures.               |
+| **BS EN 1997** | **Eurocode 7: Geotechnical Design**                               | Focuses on geotechnical design, including the analysis of soil properties, foundation design, and the construction of earth-retaining structures and tunnels. |
+| **BS EN 1998** | **Eurocode 8: Design of Structures for Earthquake Resistance**    | Provides guidelines for designing structures to withstand seismic activity, including buildings, bridges, and infrastructure in earthquake-prone areas.       |
+| **BS EN 1999** | **Eurocode 9: Design of Aluminium Structures**                    | Covers the design of aluminium structures, providing rules for buildings, bridges, and other constructions made from aluminium.                               |
+
+**Concrete Repair**
+
+| **Code**          | **Title**                                                         | **Description and Relevance**                                                                                                                                             |
+| ----------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **BS EN 1504-1**  | **Definitions**                                                   | Provides definitions and descriptions of terms related to the protection and repair of concrete structures.                                                               |
+| **BS EN 1504-2**  | **Surface protection systems for concrete**                       | Specifies requirements for surface protection systems, including hydrophobic impregnations, coatings, and surface treatments.                                             |
+| **BS EN 1504-3**  | **Structural and non-structural repair**                          | Outlines requirements for products used in the repair of concrete structures, focusing on structural and non-structural repair materials.                                 |
+| **BS EN 1504-4**  | **Structural bonding**                                            | Covers products used for bonding structural elements, such as adhesives for concrete or steel bonding.                                                                    |
+| **BS EN 1504-5**  | **Concrete injection**                                            | Specifies requirements for products and systems used for injecting cracks, voids, and interstices in concrete to restore its structural integrity and/or water tightness. |
+| **BS EN 1504-6**  | **Anchoring of reinforcing steel bar**                            | Defines the requirements for products used to anchor reinforcing steel in concrete structures.                                                                            |
+| **BS EN 1504-7**  | **Reinforcement corrosion protection**                            | Outlines requirements for products used to protect steel reinforcement against corrosion.                                                                                 |
+| **BS EN 1504-8**  | **Quality control and evaluation of conformity**                  | Specifies the criteria for quality control and conformity assessment for products and systems covered by BS EN 1504.                                                      |
+| **BS EN 1504-9**  | **General principles for the use of products and systems**        | Describes the general principles for selecting and using products and systems for the protection and repair of concrete structures.                                       |
+| **BS EN 1504-10** | **Site application of products and systems, and quality control** | Provides guidelines for the application of products and systems on-site, including quality control procedures during application.                                         |
+
+**Miscellaneous**
+
+| **Code**        | **Title**                                                                              | **Description and Relevance**                                                                                                                                                                                                                                           |
+| --------------- | -------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **BS EN 206**   | **Concrete - Specification, performance, production, and conformity**                  | Defines the specifications and performance criteria for concrete. It covers the production process, quality control, and the conformity assessment required to ensure concrete meets the necessary standards for various construction applications.                     |
+| **BS 8666**     | **Scheduling, dimensioning, bending, and cutting of steel reinforcement for concrete** | Specifies the requirements for scheduling, dimensioning, bending, and cutting of steel reinforcement for concrete. It provides guidelines for the standard shapes, sizes, and detailing of reinforcement, ensuring consistency and accuracy in reinforcement schedules. |
+| **BS EN 13501** | **Fire classification of construction products and building elements**                 | Specifies the classification of construction products and building elements based on their reaction to fire. It includes tests for fire resistance, smoke production, and burning droplets, providing a framework for ensuring fire safety in buildings.                |
+| **BS EN 12350** | **Testing fresh concrete**                                                             | This standard provides a series of test methods for evaluating the properties of fresh concrete, such as workability, slump, and consistency. These tests are critical for ensuring that concrete meets the desired performance criteria before it hardens.             |
+
+**CIRIA Guidance**
+
+| **Code**       | **Title**                                                            | **Description and Relevance**                                                                                                                                                                                                        |
+| -------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **CIRIA C660** | **Monitoring the Durability of Reinforced Concrete**                 | Provides guidance on techniques and methodologies for assessing the durability of reinforced concrete structures, focusing on long-term performance.                                                                                 |
+| **CIRIA C670** | **Buried Structures: The Design and Construction of Foundations**    | Offers best practice guidelines for the design and construction of foundations for buried structures, including those made from reinforced concrete. It covers aspects such as load-bearing capacity and soil-structure interaction. |
+| **CIRIA C671** | **Control of Ground Movements Induced by Tunnelling**                | Details best practices for managing ground movements during tunnelling, with considerations for reinforced concrete linings and their interaction with the surrounding soil.                                                         |
+| **CIRIA C743** | **Good Practice for the Repair of Concrete Structures**              | Outlines methods and best practices for repairing concrete structures, focusing on ensuring durability and structural integrity during and after repair processes.                                                                   |
+| **CIRIA C744** | **Good Practice for the Use of Concrete in Tunnels**                 | Covers best practices for the use of concrete in tunnel construction, addressing aspects like mix design, durability, and performance in tunnel environments.                                                                        |
+| **CIRIA C753** | **Groundwater Control - Design and Practice**                        | Provides guidance on managing groundwater during construction activities, including its impact on reinforced concrete structures and methods to mitigate potential issues.                                                           |
+| **CIRIA C766** | **Control of Cracking Caused by Restrained Deformation in Concrete** | Focuses on understanding and controlling cracking in concrete due to restrained deformation. It provides methods for preventing and managing cracking to maintain structural integrity and durability                                |
+
+**Health, Safety and Welfare**
+
+| **Code**                            | **Title**                                                                 | **Description and Relevance**                                                                                                                                                                       |
+| ----------------------------------- | ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **CDM 2015**                        | **Construction (Design and Management) Regulations 2015**                 | Establishes responsibilities for managing health and safety in all aspects of construction, including tunnelling and confined spaces. It ensures effective planning, coordination, and supervision. |
+| **HSG 47**                          | **Avoiding Danger from Underground Services**                             | Provides guidance on avoiding risks associated with underground services during excavation and tunnelling, including safe digging practices and locating utilities.                                 |
+| **HSG 64**                          | **The Safe Use of Lifting Equipment**                                     | Includes guidance on the safe use of lifting equipment which is crucial for handling materials and machinery in tunnelling operations.                                                              |
+| **HSG 70**                          | **Work in Confined Spaces**                                               | Offers detailed guidance on safety practices for working in confined spaces, including risk assessment, emergency procedures, and necessary training.                                               |
+| **HSG 258**                         | **Managing Health and Safety in Tunnelling**                              | Provides specific guidelines for managing health and safety in tunnelling projects, including risk assessments, health hazards, and safety management.                                              |
+| **HSG 262**                         | **Health and Safety in Tunnelling – Good Practice Guide**                 | Supplementary guidance to HSG 258, offering practical advice and examples of good practice for managing health and safety risks in tunnelling.                                                      |
+| **HSG 279**                         | **Health and Safety in Excavations**                                      | Covers safety measures for excavation work, including those related to tunnelling, to prevent collapses and ensure safe working conditions.                                                         |
+| **HSE Confined Spaces Regulations** | **Confined Spaces Regulations 1997**                                      | Requires risk assessments and safe working procedures for confined spaces, including entry procedures, atmospheric testing, and emergency planning.                                                 |
+| **HSG 33**                          | **Health and Safety in Construction**                                     | Provides guidance on managing health and safety risks in the construction industry, including best practices for risk assessment, management, and compliance.                                       |
+| **HSG 60**                          | **The Safe Use of Lifting Equipment**                                     | Offers guidelines for the safe use and maintenance of lifting equipment on construction sites, ensuring that equipment is used correctly and safely.                                                |
+| **HSG 139**                         | **The Safe Use of Cranes**                                                | Provides guidance on the safe use of cranes on construction sites, including planning, operation, and maintenance to prevent accidents and ensure safety.                                           |
+| **HSE RIDDOR**                      | **Reporting of Injuries, Diseases and Dangerous Occurrences Regulations** | Outlines the legal requirements for reporting and recording work-related injuries, diseases, and dangerous occurrences to ensure effective monitoring and prevention.                               |
+
+---
+
+### Construction, Design and Management (2015) Regulations:
+
+**Key Roles**
+
+- **Client:** Responsible for overall project safety, including appointing key roles and ensuring integration of health and safety from the start.
+- **Principal Designer:** Manages safety during the design phase and coordinates with other parties to address risks in the design.
+- **Principal Contractor:** Manages safety on site during construction, ensures coordination among contractors, and maintains the construction phase plan.
+- **Designer:** Incorporates safety considerations into design and provides necessary information to manage risks.
+- **Contractor:** Ensures their work is safely planned and managed, cooperating with others and following safety procedures.
+- **Workers:** Adhere to safety instructions and cooperate with health and safety measures.
+
+| **Role**                 | **Responsibilities**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Client**               | - make suitable arrangements for managing their project, enabling those carrying it out to manage health and safety risks in a proportionate way. These arrangements include: <br>- appointing the contractors and designers to the project (including the principal designer and principal contractor on projects involving more than one contractor) while making sure they have the skills, knowledge, experience and organisational capability<br><br>o    allowing sufficient time and resources for each stage of the project<br><br>o    making sure that any principal designer and principal contractor appointed carry out their duties in managing the project<br><br>o    making sure suitable welfare facilities are provided for the duration of the construction work<br><br>·          maintain and review the management arrangements for the duration of the project<br><br>·          provide pre-construction information to every designer and contractor either bidding for the work or already appointed to the project<br><br>·          ensure that the principal contractor or contractor (for single contractor projects) prepares a **construction phase plan** before that phase begins<br><br>·          ensure that the principal designer prepares a **health and safety file** for the project and that it is revised as necessary and made available to anyone who needs it for subsequent work at the site.                                                           |
+| **Principal Designer**   | ·          plan, manage, monitor and coordinate health and safety in the pre-construction phase. In doing so they must take account of relevant information (such as an existing **health and safety file**) that might affect design work carried out both before and after the construction phase has started<br><br>·          help and advise the client in bringing together **pre-construction information**, and provide the information designers and contractors need to carry out their duties<br><br>·          work with any other designers on the project to **eliminate** foreseeable health and safety risks to anyone affected by the work and, where that is not possible, take steps to **reduce or control** those risks<br><br>·          ensure that everyone involved in the pre-construction phase communicates and cooperates, coordinating their work wherever required<br><br>·          liaise with the principal contractor, keeping them informed of any risks that need to be controlled during the construction phase                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Principal Contractor** | - plan, manage, monitor and coordinate the entire construction phase<br>- take account of the health and safety risks to everyone affected by the work (including members of the public), in planning and managing the measures needed to control them<br>- liaise with the client and principal designer for the duration of the project to ensure that all risks are effectively managed<br>- prepare a written **construction phase plan** before the construction phase begins, implement, and then regularly review and revise it to make sure it remains fit for purpose<br>- have ongoing arrangements in place for managing health and safety throughout the construction phase<br>- consult and engage with workers about their health, safety and welfare<br>- ensure suitable **welfare facilities** are provided from the start and maintained throughout the construction phase<br>- check that anyone they appoint has the skills, knowledge, experience and, where relevant, the organisational capability to carry out their work safely and without risk to health<br>- ensure all workers have **site-specific inductions**, and any further information and training they need<br>- take steps to prevent **unauthorised access** to the site<br>- liaise with the principal designer to share any information relevant to the planning, management, monitoring and coordination of the pre-construction phase                                                                        |
+| **Designer**             | ·          make sure the client is aware of the client duties under CDM 2015 before starting any design work<br><br>·          when preparing or modifying designs:<br><br>o    take account of any pre-construction information provided by the client (and principal designer, if one is involved)<br><br>o    eliminate foreseeable health and safety risks to anyone affected by the project (if possible)<br><br>o    take steps to reduce or control any risks that cannot be eliminated<br><br>·          provide design information to:<br><br>o    the principal designer (if involved), for inclusion in the **pre-construction information** and the **health and safety file**<br><br>o    the client and principal contractor (or the contractor for single contractor projects) to help them comply with their duties, such as ensuring a **construction phase plan** is prepared<br><br>·          communicate, cooperate and coordinate with:<br><br>o    any other designers (including the principal designer) so that all designs are compatible and ensure health and safety, both during the project and beyond<br><br>o    all contractors (including the principal contractor), to take account of their knowledge and experience of building designs                                                                                                                                                                                                                             |
+| **Contractor**           | ·       make sure the client is aware of the client duties under CDM 2015 before any work starts<br><br>·       plan, manage and monitor all work carried out by themselves and their workers, taking into account the risks to anyone who might be affected by it (including members of the public) and the measures needed to protect them<br><br>·       check that all workers they employ or appoint have the skills, knowledge, training and experience to carry out the work, or are in the process of obtaining them<br><br>·       make sure that all workers under their control have a suitable, site-specific induction, unless this has already been provided by the principal contractor<br><br>·       provide appropriate supervision, information and instructions to workers under their control<br><br>·       ensure they do not start work on site unless reasonable steps have been taken to prevent unauthorised access<br><br>·       ensure suitable welfare facilities are provided from the start for workers under their control, and maintain them throughout the work<br><br>In addition to the above responsibilities, contractors working on **projects involving more than one contractor** must:<br><br>·       coordinate their work with the work of others in the project team<br><br>·       comply with directions given by the principal designer or principal contractor<br><br>·       comply with parts of the construction phase plan relevant to their work |
+
+**CDM Structure in the contract**
+
+<span class="HL-text">**NOTE** The section below was specific to my project and you should be able to explain the mechanism in which CDM was applied on your project, if the project is large enough it will have a CDM Management Plan, refer to that.</span>
+
+The CDM process is facilitated through the adoption of **Design Development Reviews (DDRs)**, **Interdisciplinary Design Reviews (IDRs)**, and  **L3 certificates**:
+- **Design Development Reviews (DDRs):**  
+Regular High-level technical walkthrough of one or more specific design areas, allowing the designer to provide progressive assurance to and revive feedback from the principal contactor; presented from all relevant Technical Discipline Leads.CDM advisors to be engaged in these reviews to advise on high and medium risks and ensure all relevant information is transferred to drawings.  
+- **Interdisciplinary Design Reviews (IDRs)**:Interdisciplinary Design Reviews ensure that a "buildable" design, fit for operation and maintenance, is developed and residual risks are communicated with a record of associated assumptions. The IDR process provides a formal focussed assessment of all geographic and systemwide design works. The IDR should be seen as the end of the design process.  
+- **L3 Certificates**:
+Evidence that the design is accepted and that the design can now progress to construction.
