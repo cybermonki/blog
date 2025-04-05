@@ -36,7 +36,7 @@
 
 html {
   font-family: 'Hack', monospace;
-  background-color: #1c1c1c;
+  background-color: #000000;
   color: #fff;
 }
 
@@ -66,7 +66,7 @@ footer{
 }
 
 .blurb-container {
-  border: #acfd25 2px solid;
+  border: #44c14F 2px solid;
   border-radius: 20px;
   padding: 10px;
   flex-grow: 1;
@@ -74,14 +74,14 @@ footer{
 
 .blurb {
   font-size: 14px;
-  color: #acfd25;
+  color: #44c14F;
   font-weight: bold;
 }
 
 .blurb::after {
   content: "|";
   animation: blink 1s step-end infinite;
-  color: #acfd25;
+  color: #44c14F;
 }
 
 @keyframes blink {
@@ -103,7 +103,7 @@ footer{
   height: 200px;
   margin-top: 10px;
   position: relative;
-  border: 3px solid #acfd25;
+  border: 3px solid #44c14F;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
   border-radius: 100px;
@@ -113,18 +113,18 @@ footer{
 
 @keyframes pulse-glow {
   0% {
-    box-shadow: 0 0 5px rgba(172,253,37, 0.7);
+    box-shadow: 0 0 5px rgba(68,193,79 , 0.7);
   }
   50% {
-    box-shadow: 0 0 15px rgba(172,253,37,0.9);
+    box-shadow: 0 0 50px rgba(68,193,79 ,1);
   }
 100% {
-    box-shadow: 0 0 5px rgba(172,253,37,0.7);
+    box-shadow: 0 0 5px rgba(68,193,79 ,0.7);
 }
 }
 
 .HL-text {
-  color: #acfd25;
+  color: #44c14F;
 }
 
 h1 {
@@ -144,7 +144,7 @@ h1 {
         width: 40px;
         height: 5px;
         margin-bottom: 10px;
-        background-color: #acfd25;
+        background-color: #44c14F;
 }
 
 .expanded {
@@ -170,17 +170,17 @@ h1 {
   border: 2px solid transparent;
   border-radius: 10px;
   transition: all 0.3s ease;
-  color: white;
+  color: #44c14F;
 }
 
 .nav-links a:hover,
 .nav-links a:focus {
-  border-color: #acfd25;
+  border-color: #44c14F;
   outline: none;
 }
 
 a {
-  color: #acfd25;
+  color: #44c14F;
 }
 
 table {
