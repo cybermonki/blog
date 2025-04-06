@@ -89,6 +89,13 @@ footer{
   50% {opacity: 1}
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
 /* profile pic styling */
 .profile-pic {
   display: block;
