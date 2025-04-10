@@ -216,6 +216,7 @@ th {
   
   .markdown {
     font-size: 14px;
+    max-width: 180ch;
   }
 
   .hamburger {
@@ -239,6 +240,7 @@ th {
   
   .markdown {
     font-size: 16px;
+    max-width: 80ch;
   }
   
   h1 {

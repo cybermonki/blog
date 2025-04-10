@@ -261,7 +261,7 @@ Additional clauses used to amend the 9 core clauses.
 
 First of all some useful definitions:
 - Activity Schedule: a list of activities (prepared by the contractor), which they expect to carry out while providing the works. Each activity is linked to a price (prepared by the contractor) to be paid by the client.
-- Priced contract: Price for works to be carried out as stated within the contract documents
+- Priced contract: Price for works to be carried out as stated within the contract documents.
 - Bill of Quantities (BoQ): a document that lists specific measured items of work identified by the drawings and specifications. Each item will be allocated a price.
 
 
