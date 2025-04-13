@@ -1,0 +1,19 @@
+---
+layout: ../../layouts/MarkdownPostLayout.astro
+title: 'Stress-Strain and MN Interaction Diagrams'
+pubDate: 2025-03-15
+description: 'Summary of my revision notes for the ICE CPR.'
+author: 'cybermonki'
+image:
+    url: 'https://docs.astro.build/assets/rose.webp'
+    alt: 'The Astro logo on a dark background with a pink glow.'
+tags: ["astro", "blogging", "learning in public"]
+---
+
+import MNInteraction from "/src/components/MNinteraction.jsx"
+
+# Adding Plotly to Your Astro Blog with JSX
+
+Here's an interactive Plotly plot integrated into this Astro blog:
+
+<MNInteraction client:load />
