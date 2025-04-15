@@ -6,5 +6,11 @@ import mdx from '@astrojs/mdx';
 // https://astro.build/config
 export default defineConfig({
   integrations: [preact(), mdx()],
-  outDir: './dist'
+  outDir: './dist',
+  vite: {
+    esbuild: {
+      jsx: 'automatic',
+      jsxImportSource: 'preact',
+    },
+  },
 });
