@@ -128,32 +128,52 @@ img {
   margin: 0 auto;
   height: auto;
   width: 100%;
+  mix-blend-mode: multiply;
+  background-color: transparent;
+  background: transparent;
+}
+
+.image-container {
+  position: relative;
+  width: 200px;
+  height: 250px;
 }
 
 .image-cropper {
   flex-shrink: 0;
   width: 200px;
-  height: 200px;
-  margin-top: 10px;
+  height: 250px;
   position: relative;
-  border: 3px solid #fff;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  border-radius: 100px;
+  clip-path: polygon(0 0, 80% 0%, 100% 20%, 100% 100%, 20% 100%, 0% 80%);
   overflow:hidden;
-  animation: pulse-glow 2s infinite ease-in-out;
+  background-color: transparent;
+  background: transparent;
+  z-index: 1;
 }
 
-@keyframes pulse-glow {
-  0% {
-    box-shadow: 0 0 5px rgba(255, 255, 255 , 0.7);
-  }
-  50% {
-    box-shadow: 0 0 50px rgba(255, 255, 255 ,1);
-  }
-100% {
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+svg.border-anim {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
 }
+
+.glow-path {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1px;
+  stroke-dasharray: 125 298;
+  stroke-dashoffset: 0;
+  animation: trace 4s linear infinite;
+}
+
+@keyframes trace {
+  to {
+    stroke-dashoffset: -845;
+  }
 }
 
 .HL-text {

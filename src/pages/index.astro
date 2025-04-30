@@ -1,8 +1,8 @@
 ---
 import { Image } from 'astro:assets';
-import profileImg from '../media/profile-pic.jpg';
+import profileImg from '../media/profile.png';
 const pageTitle = 'Home Page';
-const blurbText = "I am a CEng MICE Senior engineer with a passion for structural engineering, programming and technology, welcome to my personal site for anything and everything I find interesting.";
+const blurbText = "Welcome to my corner of the digital world, where structural engineering meets cutting-edge technology and creative coding. I'm a Senior Engineer, CEng MICE, diving deep into the world of innovation, problem-solving, and all things that spark curiosity. This space is my playground, where I share my thoughts, projects, and the ideas that keep me inspired.";
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import '../styles/global.css';
@@ -21,8 +21,13 @@ import Typewriter from '../components/Typewriter.jsx';
             <div class="content">
                 <Header />
                 <div class="banner">
-                    <div class="image-cropper">
-                        <Image class="profile-pic" src={profileImg} alt="profile picture"/>
+                    <div class="image-container">
+                        <svg class="border-anim" viewbox="0 0 200 250" preserveAspectRation="none">
+                            <path class="glow-path" d="M0,0 L160,0 L198,50 L198,248 L40,248 L0,198 Z"/>
+                        </svg>
+                        <div class="image-cropper">
+                            <Image class="profile-pic" src={profileImg} alt="profile picture" format='png'/>
+                        </div>
                     </div>
                     <div>
                         <Typewriter client:load text={blurbText} />
