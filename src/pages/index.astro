@@ -17,17 +17,21 @@ import Typewriter from '../components/Typewriter.jsx';
         <title>{pageTitle}</title>
     </head>
     <body>
-        <Header />
-        <div class="banner">
-            <div class="image-cropper">
-                <Image class="profile-pic" src={profileImg} alt="profile picture"/>
+        <div class="background-image">
+            <div class="content">
+                <Header />
+                <div class="banner">
+                    <div class="image-cropper">
+                        <Image class="profile-pic" src={profileImg} alt="profile picture"/>
+                    </div>
+                    <div>
+                        <Typewriter client:load text={blurbText} />
+                    </div>
+                <script>
+                  import "../scripts/menu.js";
+                </script>
             </div>
-            <div>
-                <Typewriter client:load text={blurbText} />
-            </div>
-        <script>
-          import "../scripts/menu.js";
-        </script>
+        </div>
     </body>
     <Footer />
 </html>
